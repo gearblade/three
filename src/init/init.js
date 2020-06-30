@@ -23,7 +23,7 @@ import {
 } from '../utils/utils.js'
 
 //生产环境可自定义FBX所在位置
-const FBXpath1 = process.env.NODE_ENV === 'development' ? './src/mod/奔驰ar.fbx' : 'mod/奔驰ar.fbx'
+const FBXpath1 = process.env.NODE_ENV === 'development' ? './src/mod/三维/奔驰ar.fbx' : 'mod/三维/奔驰ar.fbx'
 
 //初始化三维模型和相关环境
 export function initThree(){
@@ -39,16 +39,20 @@ export function initThree(){
    * 这是目前测试过的移动端效果比较好的配置
    */
   loader.load(FBXpath1, function(obj) {
-    obj.traverse( function ( child ) {
-      if ( child.isMesh ) {
-        child.castShadow = true;
-        child.receiveShadow = true;
+    console.log(obj)
+    obj.traverse(function(child){
+      if(child.isMesh){
+        child.castShadow = true
+        child.receiveShadow = true
       }
-    } )
+    })
     scene.add(obj)
-    // 适当移动模型位置
-    // obj.translateY(-8)
-    // obj.scale.set(0.5, 0.5, 0.5)
+    /**
+     * 生产环境打开此配置
+     * obj.translateY(-8)
+     * obj.scale.set(0.5, 0.5, 0.5)
+     */
+
 
     obj.scale.set(0.3, 0.3, 0.3)
     obj.rotateY(3)
