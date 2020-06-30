@@ -1,0 +1,2505 @@
+Composition {
+	CurrentTime = 14,
+	RenderRange = { 1, 1, },
+	GlobalRange = { 1, 200, },
+	CurrentID = 1687,
+	Version = "Fusion Studio 7.7.1 build 0",
+	SavedOutputs = 1,
+	HeldTools = 0,
+	DisabledTools = 0,
+	LockedTools = 0,
+	AudioOffset = 0,
+	Resumable = true,
+	OutputClips = {
+		"E:\\Benz NGCC_2020_Project\\comp\\pt11_dz\\pt11n.jpg",
+	},
+	Tools = {
+		Loader18 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\cc\\pt11_A.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 390.515, 71.5138, }, },
+		},
+		Loader20 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\mask03\\pt11_D.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 494.331, -93.953, }, },
+		},
+		Loader3 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\mask01\\pt11_C.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { -113.736, 447.348, }, },
+		},
+		Loader13 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\pic05\\pt11_I.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1342.46, 428.885, }, },
+		},
+		Loader14 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\pic06\\pt11_J.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1929.82, 682.324, }, },
+		},
+		Loader9 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\pic01\\pt11_F.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1518.75, -321.199, }, },
+		},
+		Loader5 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\mask04\\pt11_E.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1590.58, -811.419, }, },
+		},
+		Loader10 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\pic02\\pt11_G.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1964.42, -488.513, }, },
+		},
+		Loader23 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\pic08\\pt11_L.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 2627.42, 526.792, }, },
+		},
+		Loader12 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\pic04\\pt11_H.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 2939.84, -388.566, }, },
+		},
+		Loader24 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\pic09\\pt11_M.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 3251.87, -694.575, }, },
+		},
+		Loader2 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\txt_cc\\pt11_N.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 3526.54, 308.05, }, },
+		},
+		Loader15_1 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\txt_cc\\pt11_N.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 3542.71, 627.764, }, },
+		},
+		Loader4 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\line2\\pt11_B.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 3596.45, 842.04, }, },
+		},
+		Loader19 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\pic07\\pt11_K.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 4108.88, 833.543, }, },
+		},
+		Loader22 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\pic08\\pt11_L.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 4976.45, -938.599, }, },
+		},
+		Loader8 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\txt_cc02\\pt11_O.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+				EffectMask = Input {
+					SourceOp = "Loader7",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 5036.61, 159.447, }, },
+		},
+		Loader7 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\txt_mask02\\pt11_Q.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 4760.61, 484.998, }, },
+		},
+		Loader21 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "E:\\Benz NGCC_2020_Project\\scenes\\render_data\\lk\\kh\\20200623final\\合成工程\\comp_icon\\txt_depth\\pt11_P.png",
+					FormatID = "PNGFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 1,
+					GlobalEnd = 1,
+				},
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 5321.68, -238.418, }, },
+		},
+		ChannelBooleans4 = ChannelBoolean {
+			Inputs = {
+				ToRed = Input { Value = 2, },
+				ToGreen = Input { Value = 2, },
+				ToBlue = Input { Value = 7, },
+				ToAlpha = Input { Value = 7, },
+				Background = Input {
+					SourceOp = "BrightnessContrast2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 402.597, 404.099, }, },
+		},
+		ChannelBooleans5 = ChannelBoolean {
+			Inputs = {
+				ToRed = Input { Value = 1, },
+				ToBlue = Input { Value = 6, },
+				ToAlpha = Input { Value = 6, },
+				Background = Input {
+					SourceOp = "BrightnessContrast2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 399.412, 594.666, }, },
+		},
+		BrightnessContrast4 = BrightnessContrast {
+			Inputs = {
+				Gain = Input { Value = 1.7619048, },
+				Gamma = Input { Value = 1.1904762, },
+				Input = Input {
+					SourceOp = "Loader18",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 581.637, 97.7382, }, },
+		},
+		ChannelBooleans8 = ChannelBoolean {
+			Inputs = {
+				ToRed = Input { Value = 2, },
+				ToGreen = Input { Value = 2, },
+				ToAlpha = Input { Value = 2, },
+				Background = Input {
+					SourceOp = "Loader20",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 735.406, -114.843, }, },
+		},
+		BrightnessContrast11 = BrightnessContrast {
+			Inputs = {
+				Gain = Input { Value = 0.3619048, },
+				Gamma = Input { Value = 0.6857143, },
+				Input = Input {
+					SourceOp = "BrightnessContrast4",
+					Source = "Output",
+				},
+				EffectMask = Input {
+					SourceOp = "ChannelBooleans8",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 697.413, 106.078, }, },
+		},
+		ColorCorrector1 = ColorCorrector {
+			Inputs = {
+				WheelTintAngle1 = Input { Value = 0.582407542241518, },
+				WheelTintLength1 = Input { Value = 1, },
+				ColorRanges = Input {
+					Value = ColorCurves {
+						Curves = {
+							{
+								Points = {
+									{ 0, 1, },
+									{ 0.4, 0.2, },
+									{ 0.6, 0, },
+									{ 1, 0, },
+								},
+							},
+							{
+								Points = {
+									{ 0, 0, },
+									{ 0.4, 0, },
+									{ 0.6, 0.2, },
+									{ 1, 1, },
+								},
+							},
+						},
+					},
+				},
+				HistogramIgnoreTransparent = Input { Value = 1, },
+				Input = Input {
+					SourceOp = "BrightnessContrast11",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 811.129, 76.1457, }, },
+		},
+		BrightnessContrast3 = BrightnessContrast {
+			Inputs = {
+				Gain = Input { Value = 1.952381, },
+				Gamma = Input { Value = 1.4190476, },
+				Input = Input {
+					SourceOp = "ColorCorrector1",
+					Source = "Output",
+				},
+				EffectMask = Input {
+					SourceOp = "ChannelBooleans3",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 1292.83, 121.657, }, },
+		},
+		BrightnessContrast2 = BrightnessContrast {
+			Inputs = {
+				Input = Input {
+					SourceOp = "Loader3",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 176.556, 436.34, }, },
+		},
+		ChannelBooleans3 = ChannelBoolean {
+			Inputs = {
+				ToRed = Input { Value = 5, },
+				ToGreen = Input { Value = 5, },
+				ToBlue = Input { Value = 5, },
+				ToAlpha = Input { Value = 5, },
+				Background = Input {
+					SourceOp = "BrightnessContrast2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 368.311, 264.533, }, },
+		},
+		Ellipse1 = EllipseMask {
+			Inputs = {
+				SoftEdge = Input { Value = 0.0942857, },
+				Invert = Input { Value = 1, },
+				MaskWidth = Input { Value = 2048, },
+				MaskHeight = Input { Value = 1556, },
+				PixelAspect = Input { Value = { 1, 1, }, },
+				ClippingMode = Input { Value = FuID { "None", }, },
+				Center = Input { Value = { 0.488028169014085, 0.273466833541927, }, },
+				Width = Input { Value = 0.104080064184938, },
+				Height = Input { Value = 0.196478873239437, },
+				Angle = Input { Value = 15.4185557039866, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1142.81, 193.087, }, },
+		},
+		BrightnessContrast9 = BrightnessContrast {
+			Inputs = {
+				Alpha = Input { Value = 1, },
+				Gain = Input { Value = 0, },
+				Input = Input {
+					SourceOp = "ChannelBooleans3",
+					Source = "Output",
+				},
+				EffectMask = Input {
+					SourceOp = "Ellipse1",
+					Source = "Mask",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 910.879, 314.714, }, },
+		},
+		ColorCorrector2 = ColorCorrector {
+			Inputs = {
+				WheelTintAngle1 = Input { Value = -0.266039794174065, },
+				WheelTintLength1 = Input { Value = 1, },
+				ColorRanges = Input {
+					Value = ColorCurves {
+						Curves = {
+							{
+								Points = {
+									{ 0, 1, },
+									{ 0.4, 0.2, },
+									{ 0.6, 0, },
+									{ 1, 0, },
+								},
+							},
+							{
+								Points = {
+									{ 0, 0, },
+									{ 0.4, 0, },
+									{ 0.6, 0.2, },
+									{ 1, 1, },
+								},
+							},
+						},
+					},
+				},
+				HistogramIgnoreTransparent = Input { Value = 1, },
+				Input = Input {
+					SourceOp = "BrightnessContrast3",
+					Source = "Output",
+				},
+				EffectMask = Input {
+					SourceOp = "BrightnessContrast9",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 1434.58, 94.6595, }, },
+		},
+		DirectionalBlur1 = DirectionalBlur {
+			Inputs = {
+				Type = Input { Value = 3, },
+				Center = Input { Value = { 0.50464807436919, 0.0548996458087367, }, },
+				Length = Input { Value = 0.1, },
+				Glow = Input { Value = 0.1904762, },
+				Input = Input {
+					SourceOp = "ColorCorrector2",
+					Source = "Output",
+				},
+				EffectMask = Input {
+					SourceOp = "Ellipse2",
+					Source = "Mask",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 1668.7, 69.1187, }, },
+		},
+		ChannelBooleans1_1 = ChannelBoolean {
+			Inputs = {
+				ToAlpha = Input { Value = 5, },
+				Background = Input {
+					SourceOp = "Loader13",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 1587.02, 486.377, }, },
+		},
+		Background1 = Background {
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 200, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+				TopLeftRed = Input { Value = 0.134666666666667, },
+				TopLeftGreen = Input { Value = 0.342323585579534, },
+				TopLeftBlue = Input { Value = 0.673333333333333, },
+				Gradient = Input {
+					Value = Gradient {
+						Colors = {
+							[0] = { 0, 0, 0, 1, },
+							[1] = { 1, 1, 1, 1, },
+						},
+					},
+				},
+				EffectMask = Input {
+					SourceOp = "ChannelBooleans1_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 1712.97, 459.741, }, },
+		},
+		Blur1 = Blur {
+			Inputs = {
+				XBlurSize = Input { Value = 2.3809524, },
+				Input = Input {
+					SourceOp = "Background1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 1966.84, 404.745, }, },
+		},
+		DirectionalBlur1_1 = DirectionalBlur {
+			Inputs = {
+				Type = Input { Value = 3, },
+				Center = Input { Value = { 0.501608560691378, 0.0485254223613426, }, },
+				Length = Input { Value = 3.2, },
+				Input = Input {
+					SourceOp = "Blur1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 1647.41, 323.202, }, },
+		},
+		Ellipse3 = EllipseMask {
+			Inputs = {
+				SoftEdge = Input { Value = 0.032381, },
+				MaskWidth = Input { Value = 2048, },
+				MaskHeight = Input { Value = 1556, },
+				PixelAspect = Input { Value = { 1, 1, }, },
+				ClippingMode = Input { Value = FuID { "None", }, },
+				Center = Input { Value = { 0.5, -0.391891891891892, }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1775.13, 160.428, }, },
+		},
+		BrightnessContrast8 = BrightnessContrast {
+			Inputs = {
+				Alpha = Input { Value = 1, },
+				Gain = Input { Value = 0, },
+				Input = Input {
+					SourceOp = "DirectionalBlur1_1",
+					Source = "Output",
+				},
+				EffectMask = Input {
+					SourceOp = "Ellipse3",
+					Source = "Mask",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 1775.13, 259.428, }, },
+		},
+		SoftGlow1 = SoftGlow {
+			Inputs = {
+				Threshold = Input { Value = 0.0571429, },
+				Gain = Input { Value = 3.8571429, },
+				XGlowSize = Input { Value = 41.4285714, },
+				Input = Input {
+					SourceOp = "BrightnessContrast8",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 1985.49, 263.174, }, },
+		},
+		Merge3 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "DirectionalBlur1",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "SoftGlow1",
+					Source = "Output",
+				},
+				ApplyMode = Input { Value = FuID { "Screen", }, },
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1987.26, 95.5501, }, },
+		},
+		ChannelBooleans1_1_1 = ChannelBoolean {
+			Inputs = {
+				ToAlpha = Input { Value = 5, },
+				Background = Input {
+					SourceOp = "Loader14",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2111.46, 649.014, }, },
+		},
+		Background1_2 = Background {
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 200, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+				TopLeftRed = Input { Value = 0.104, },
+				TopLeftGreen = Input { Value = 0.264368709655481, },
+				TopLeftBlue = Input { Value = 0.52, },
+				Gradient = Input {
+					Value = Gradient {
+						Colors = {
+							[0] = { 0, 0, 0, 1, },
+							[1] = { 1, 1, 1, 1, },
+						},
+					},
+				},
+				EffectMask = Input {
+					SourceOp = "ChannelBooleans1_1_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2327.5, 602.967, }, },
+		},
+		SoftGlow1_2 = SoftGlow {
+			Inputs = {
+				Threshold = Input { Value = 0.0904762, },
+				Gain = Input { Value = 2.5952381, },
+				XGlowSize = Input { Value = 62.8571429, },
+				Input = Input {
+					SourceOp = "Background1_2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2571.25, 328.448, }, },
+		},
+		Ellipse2_1 = EllipseMask {
+			Inputs = {
+				SoftEdge = Input { Value = 0.052381, },
+				MaskWidth = Input { Value = 2048, },
+				MaskHeight = Input { Value = 1556, },
+				PixelAspect = Input { Value = { 1, 1, }, },
+				ClippingMode = Input { Value = FuID { "None", }, },
+				Center = Input { Value = { 0.5, 0.05, }, },
+				Width = Input { Value = 1.25064680650874, },
+				Height = Input { Value = 0.510504441180365, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 2274.96, 253.65, }, },
+		},
+		DirectionalBlur1_2 = DirectionalBlur {
+			Inputs = {
+				Type = Input { Value = 3, },
+				Center = Input { Value = { 0.50464807436919, 0.0548996458087367, }, },
+				Length = Input { Value = 0.1, },
+				Glow = Input { Value = 0.1714286, },
+				Input = Input {
+					SourceOp = "SoftGlow1_2",
+					Source = "Output",
+				},
+				EffectMask = Input {
+					SourceOp = "Ellipse2_1",
+					Source = "Mask",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2425.21, 197.741, }, },
+		},
+		Merge6 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "Merge3",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "DirectionalBlur1_2",
+					Source = "Output",
+				},
+				ApplyMode = Input { Value = FuID { "Screen", }, },
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 2222.23, 87.9404, }, },
+		},
+		ChannelBooleans1 = ChannelBoolean {
+			Inputs = {
+				ToAlpha = Input { Value = 5, },
+				Background = Input {
+					SourceOp = "Loader9",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 1730.71, -316.325, }, },
+		},
+		Background1_1 = Background {
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 200, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+				TopLeftRed = Input { Value = 0.155780585914196, },
+				TopLeftGreen = Input { Value = 0.243656820481761, },
+				TopLeftBlue = Input { Value = 0.473333333333333, },
+				Gradient = Input {
+					Value = Gradient {
+						Colors = {
+							[0] = { 0, 0, 0, 1, },
+							[1] = { 1, 1, 1, 1, },
+						},
+					},
+				},
+				EffectMask = Input {
+					SourceOp = "ChannelBooleans1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 1979.82, -319.478, }, },
+		},
+		Ellipse2 = EllipseMask {
+			Inputs = {
+				SoftEdge = Input { Value = 0.052381, },
+				MaskWidth = Input { Value = 2048, },
+				MaskHeight = Input { Value = 1556, },
+				PixelAspect = Input { Value = { 1, 1, }, },
+				ClippingMode = Input { Value = FuID { "None", }, },
+				Center = Input { Value = { 0.5, 0.0656918687589158, }, },
+				Width = Input { Value = 0.891472868217054, },
+				Height = Input { Value = 0.363892392358997, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1695.41, -149.65, }, },
+		},
+		DirectionalBlur1_3 = DirectionalBlur {
+			Inputs = {
+				Type = Input { Value = 3, },
+				Center = Input { Value = { 0.50464807436919, 0.0548996458087367, }, },
+				Length = Input { Value = 0.1, },
+				Glow = Input { Value = 0.1285714, },
+				Input = Input {
+					SourceOp = "Background1_1",
+					Source = "Output",
+				},
+				EffectMask = Input {
+					SourceOp = "Ellipse2",
+					Source = "Mask",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2233.65, -342.127, }, },
+		},
+		Ellipse1_1 = EllipseMask {
+			Inputs = {
+				SoftEdge = Input { Value = 0.0180952, },
+				MaskWidth = Input { Value = 2048, },
+				MaskHeight = Input { Value = 1556, },
+				PixelAspect = Input { Value = { 1, 1, }, },
+				ClippingMode = Input { Value = FuID { "None", }, },
+				Center = Input { Value = { 0.508548905598177, 0.52042484470272, }, },
+				Width = Input { Value = 0.625518711251085, },
+				Height = Input { Value = 0.138858603963592, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 2414.04, -456.763, }, },
+		},
+		BrightnessContrast3_1 = BrightnessContrast {
+			Inputs = {
+				Alpha = Input { Value = 1, },
+				Gain = Input { Value = 0.1238095, },
+				Input = Input {
+					SourceOp = "DirectionalBlur1_3",
+					Source = "Output",
+				},
+				EffectMask = Input {
+					SourceOp = "Ellipse1_1",
+					Source = "Mask",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2409.93, -357.763, }, },
+		},
+		SoftGlow1_3 = SoftGlow {
+			Inputs = {
+				Threshold = Input { Value = 0.3571429, },
+				Gain = Input { Value = 3.452381, },
+				XGlowSize = Input { Value = 47.6190476, },
+				Input = Input {
+					SourceOp = "BrightnessContrast3_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2547.4, -252.364, }, },
+		},
+		Blur2 = Blur {
+			Inputs = {
+				XBlurSize = Input { Value = 12.3809524, },
+				Input = Input {
+					SourceOp = "SoftGlow1_3",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2530.04, -142.953, }, },
+		},
+		Merge1 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "Merge6",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "Blur2",
+					Source = "Output",
+				},
+				ApplyMode = Input { Value = FuID { "Screen", }, },
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 2471.28, -16.5634, }, },
+		},
+		ChannelBooleans5_1 = ChannelBoolean {
+			Inputs = {
+				ToRed = Input { Value = 1, },
+				ToBlue = Input { Value = 6, },
+				ToAlpha = Input { Value = 6, },
+				Background = Input {
+					SourceOp = "BrightnessContrast2_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2100.21, -686.98, }, },
+		},
+		Background1_2_1_1_1_1 = Background {
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 200, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+				TopLeftRed = Input { Value = 0.182666666666667, },
+				TopLeftGreen = Input { Value = 0.464339913112833, },
+				TopLeftBlue = Input { Value = 0.913333333333333, },
+				Gradient = Input {
+					Value = Gradient {
+						Colors = {
+							[0] = { 0, 0, 0, 1, },
+							[1] = { 1, 1, 1, 1, },
+						},
+					},
+				},
+				EffectMask = Input {
+					SourceOp = "ChannelBooleans5_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2334.24, -692.393, }, },
+		},
+		ChannelBooleans4_1 = ChannelBoolean {
+			Inputs = {
+				ToRed = Input { Value = 2, },
+				ToGreen = Input { Value = 2, },
+				ToBlue = Input { Value = 7, },
+				ToAlpha = Input { Value = 7, },
+				Background = Input {
+					SourceOp = "BrightnessContrast2_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2096.13, -881.174, }, },
+		},
+		Background1_2_1_1_2 = Background {
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 200, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+				TopLeftRed = Input { Value = 0.516678161056217, },
+				TopLeftGreen = Input { Value = 0.803095047074507, },
+				TopLeftBlue = Input { Value = 1, },
+				Gradient = Input {
+					Value = Gradient {
+						Colors = {
+							[0] = { 0, 0, 0, 1, },
+							[1] = { 1, 1, 1, 1, },
+						},
+					},
+				},
+				EffectMask = Input {
+					SourceOp = "ChannelBooleans4_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2378.18, -909.508, }, },
+		},
+		Merge7_1 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "Background1_2_1_1_1_1",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "Background1_2_1_1_2",
+					Source = "Output",
+				},
+				ApplyMode = Input { Value = FuID { "Screen", }, },
+				BurnIn = Input { Value = 1, },
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 2658.26, -918.43, }, },
+		},
+		BrightnessContrast2_1 = BrightnessContrast {
+			Inputs = {
+				Input = Input {
+					SourceOp = "Loader5",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 1877.35, -845.304, }, },
+		},
+		ChannelBooleans3_1 = ChannelBoolean {
+			Inputs = {
+				ToRed = Input { Value = 5, },
+				ToGreen = Input { Value = 5, },
+				ToBlue = Input { Value = 5, },
+				ToAlpha = Input { Value = 5, },
+				Background = Input {
+					SourceOp = "BrightnessContrast2_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2069.11, -1017.11, }, },
+		},
+		Background1_2_1_2 = Background {
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 200, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+				TopLeftRed = Input { Value = 0.08, },
+				TopLeftGreen = Input { Value = 0.203360545888832, },
+				TopLeftBlue = Input { Value = 0.4, },
+				Gradient = Input {
+					Value = Gradient {
+						Colors = {
+							[0] = { 0, 0, 0, 1, },
+							[1] = { 1, 1, 1, 1, },
+						},
+					},
+				},
+				EffectMask = Input {
+					SourceOp = "ChannelBooleans3_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2414.36, -1124.04, }, },
+		},
+		Merge8_1 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "Merge7_1",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "Background1_2_1_2",
+					Source = "Output",
+				},
+				ApplyMode = Input { Value = FuID { "Screen", }, },
+				BurnIn = Input { Value = 1, },
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 2751.79, -1116.43, }, },
+		},
+		BrightnessContrast10 = BrightnessContrast {
+			Inputs = {
+				Alpha = Input { Value = 1, },
+				Gain = Input { Value = 0.5714286, },
+				Gamma = Input { Value = 0.4666667, },
+				Input = Input {
+					SourceOp = "Merge8_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2751.79, -1017.43, }, },
+		},
+		BrightnessContrast1 = BrightnessContrast {
+			Inputs = {
+				Gain = Input { Value = 1.6857143, },
+				Input = Input {
+					SourceOp = "Loader10",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2255.65, -498.737, }, },
+		},
+		Merge12 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "BrightnessContrast10",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "BrightnessContrast1",
+					Source = "Output",
+				},
+				ApplyMode = Input { Value = FuID { "Dissolve", }, },
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 2944.57, -793.118, }, },
+		},
+		BrightnessContrast6 = BrightnessContrast {
+			Inputs = {
+				Gain = Input { Value = 1.3809524, },
+				Input = Input {
+					SourceOp = "Merge12",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2793.62, -440.377, }, },
+		},
+		Merge4 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "Merge1",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "BrightnessContrast6",
+					Source = "Output",
+				},
+				ApplyMode = Input { Value = FuID { "Screen", }, },
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 2745.51, -13.4919, }, },
+		},
+		Background1_1_1_2_1 = Background {
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 200, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+				TopLeftRed = Input { Value = 0.170971116975477, },
+				TopLeftGreen = Input { Value = 0.615863128020316, },
+				TopLeftBlue = Input { Value = 1, },
+				Gradient = Input {
+					Value = Gradient {
+						Colors = {
+							[0] = { 0, 0, 0, 1, },
+							[1] = { 1, 1, 1, 1, },
+						},
+					},
+				},
+				EffectMask = Input {
+					SourceOp = "Loader23",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2808.53, 397.785, }, },
+		},
+		Ellipse5 = EllipseMask {
+			Inputs = {
+				SoftEdge = Input { Value = 0.0548387, },
+				MaskWidth = Input { Value = 2048, },
+				MaskHeight = Input { Value = 1556, },
+				PixelAspect = Input { Value = { 1, 1, }, },
+				ClippingMode = Input { Value = FuID { "None", }, },
+				Center = Input { Value = { 0.505494505494505, 0.619804400977995, }, },
+				Width = Input { Value = 0.307437286283395, },
+				Height = Input { Value = 0.518088760218314, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 2919.75, 298.785, }, },
+		},
+		BrightnessContrast19 = BrightnessContrast {
+			Inputs = {
+				Alpha = Input { Value = 1, },
+				Gain = Input { Value = 0.2849462, },
+				Input = Input {
+					SourceOp = "Background1_1_1_2_1",
+					Source = "Output",
+				},
+				EffectMask = Input {
+					SourceOp = "Ellipse5",
+					Source = "Mask",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 2919.75, 397.785, }, },
+		},
+		SoftGlow1_1_2_1 = SoftGlow {
+			Inputs = {
+				Threshold = Input { Value = 0.052381, },
+				Gain = Input { Value = 3.5952381, },
+				XGlowSize = Input { Value = 27.4193548, },
+				Input = Input {
+					SourceOp = "BrightnessContrast19",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3038.54, 371.28, }, },
+		},
+		Blur4_2_1 = Blur {
+			Inputs = {
+				LockXY = Input { Value = 0, },
+				XBlurSize = Input { Value = 0, },
+				YBlurSize = Input { Value = 2.9569892, },
+				Input = Input {
+					SourceOp = "SoftGlow1_1_2_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3192.35, 266.724, }, },
+		},
+		BrightnessContrast14_2_1 = BrightnessContrast {
+			Inputs = {
+				Input = Input {
+					SourceOp = "Blur4_2_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3049.22, 139.095, }, },
+		},
+		Merge19 = Merge {
+			CtrlWZoom = false,
+			Inputs = {
+				Blend = Input {
+					SourceOp = "Merge19Blend",
+					Source = "Value",
+				},
+				Background = Input {
+					SourceOp = "Merge4",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "BrightnessContrast14_2_1",
+					Source = "Output",
+				},
+				ApplyMode = Input { Value = FuID { "Screen", }, },
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 3258.94, -86.2197, }, },
+		},
+		Merge19Blend = BezierSpline {
+			SplineColor = { Red = 205, Green = 205, Blue = 205, },
+			NameSet = true,
+			KeyFrames = {
+				[12] = { 0, RH = { 14.6666666666667, 0.333333333333333, }, Flags = { Linear = true, }, },
+				[20] = { 1, LH = { 17.3333333333333, 0.666666666666667, }, Flags = { Linear = true, }, },
+			},
+		},
+		Background1_1_1 = Background {
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 200, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+				TopLeftRed = Input { Value = 0.170971116975477, },
+				TopLeftGreen = Input { Value = 0.615863128020315, },
+				TopLeftBlue = Input { Value = 1, },
+				Gradient = Input {
+					Value = Gradient {
+						Colors = {
+							[0] = { 0, 0, 0, 1, },
+							[1] = { 1, 1, 1, 1, },
+						},
+					},
+				},
+				EffectMask = Input {
+					SourceOp = "BrightnessContrast18_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3413.22, -223.478, }, },
+		},
+		SoftGlow1_1 = SoftGlow {
+			Inputs = {
+				Threshold = Input { Value = 0.052381, },
+				Gain = Input { Value = 3.5952381, },
+				XGlowSize = Input { Value = 5.7142857, },
+				Input = Input {
+					SourceOp = "Background1_1_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3558.31, -239.871, }, },
+		},
+		ChannelBooleans2 = ChannelBoolean {
+			Inputs = {
+				ToAlpha = Input { Value = 5, },
+				Background = Input {
+					SourceOp = "Loader12",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3102.69, -361.861, }, },
+		},
+		Ellipse4 = EllipseMask {
+			Inputs = {
+				SoftEdge = Input { Value = 0.0322581, },
+				MaskWidth = Input { Value = 2048, },
+				MaskHeight = Input { Value = 1556, },
+				PixelAspect = Input { Value = { 1, 1, }, },
+				ClippingMode = Input { Value = FuID { "None", }, },
+				Center = Input { Value = { 0.4950380839167, 0.779544312280114, }, },
+				Width = Input { Value = 0.510547834840376, },
+				Height = Input { Value = 0.10258202886361, },
+				Angle = Input { Value = 3.13613010758394, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 3212.69, -460.861, }, },
+		},
+		BrightnessContrast18 = BrightnessContrast {
+			Inputs = {
+				Alpha = Input { Value = 1, },
+				Gain = Input { Value = 0.4677419, },
+				Input = Input {
+					SourceOp = "ChannelBooleans2",
+					Source = "Output",
+				},
+				EffectMask = Input {
+					SourceOp = "Ellipse4",
+					Source = "Mask",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3210.93, -361.861, }, },
+		},
+		Ellipse4_1 = EllipseMask {
+			Inputs = {
+				SoftEdge = Input { Value = 0.0322581, },
+				MaskWidth = Input { Value = 2048, },
+				MaskHeight = Input { Value = 1556, },
+				PixelAspect = Input { Value = { 1, 1, }, },
+				ClippingMode = Input { Value = FuID { "None", }, },
+				Center = Input { Value = { 0.525883855060978, 0.768906014407774, }, },
+				Width = Input { Value = 0.317553077869757, },
+				Height = Input { Value = 0.0638044797701442, },
+				Angle = Input { Value = 6.57048093054539, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 3321.03, -501.305, }, },
+		},
+		BrightnessContrast18_1 = BrightnessContrast {
+			Inputs = {
+				Alpha = Input { Value = 1, },
+				Gain = Input { Value = 0.4677419, },
+				Input = Input {
+					SourceOp = "BrightnessContrast18",
+					Source = "Output",
+				},
+				EffectMask = Input {
+					SourceOp = "Ellipse4_1",
+					Source = "Mask",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3320.93, -338.97, }, },
+		},
+		Merge7 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "SoftGlow1_1",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "BrightnessContrast18_1",
+					Source = "Output",
+				},
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 3735.42, -255.096, }, },
+		},
+		Blur4 = Blur {
+			Inputs = {
+				LockXY = Input { Value = 0, },
+				XBlurSize = Input { Value = 0, },
+				YBlurSize = Input { Value = 9.6774194, },
+				Input = Input {
+					SourceOp = "Merge7",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3695.82, -146.218, }, },
+		},
+		BrightnessContrast14 = BrightnessContrast {
+			Inputs = {
+				Input = Input {
+					SourceOp = "Blur4",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3740.92, -45.5371, }, },
+		},
+		Merge5 = Merge {
+			Inputs = {
+				Blend = Input { Value = 0.344086, },
+				Background = Input {
+					SourceOp = "Merge19",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "BrightnessContrast14",
+					Source = "Output",
+				},
+				ApplyMode = Input { Value = FuID { "Screen", }, },
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 3929.64, 131.508, }, },
+		},
+		Background1_1_1_1 = Background {
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 200, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+				TopLeftRed = Input { Value = 0.170971116975477, },
+				TopLeftGreen = Input { Value = 0.615863128020315, },
+				TopLeftBlue = Input { Value = 1, },
+				Gradient = Input {
+					Value = Gradient {
+						Colors = {
+							[0] = { 0, 0, 0, 1, },
+							[1] = { 1, 1, 1, 1, },
+						},
+					},
+				},
+				EffectMask = Input {
+					SourceOp = "BrightnessContrast18_1_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3894.02, -437.303, }, },
+		},
+		SoftGlow1_1_1 = SoftGlow {
+			Inputs = {
+				Threshold = Input { Value = 0.052381, },
+				Gain = Input { Value = 3.5952381, },
+				XGlowSize = Input { Value = 5.7142857, },
+				Input = Input {
+					SourceOp = "Background1_1_1_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 4144.66, -515.672, }, },
+		},
+		Merge7_2 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "SoftGlow1_1_1",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "BrightnessContrast18_1_1",
+					Source = "Output",
+				},
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 4328.98, -597.59, }, },
+		},
+		Blur4_1 = Blur {
+			Inputs = {
+				LockXY = Input { Value = 0, },
+				XBlurSize = Input { Value = 0, },
+				YBlurSize = Input { Value = 1.0752688, },
+				Input = Input {
+					SourceOp = "Merge7_2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 4262.19, -369.933, }, },
+		},
+		Blur5 = Blur {
+			Inputs = {
+				LockXY = Input { Value = 0, },
+				YBlurSize = Input { Value = 5, },
+				Input = Input {
+					SourceOp = "Loader24",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3469.35, -700.232, }, },
+		},
+		ChannelBooleans2_1 = ChannelBoolean {
+			Inputs = {
+				ToAlpha = Input { Value = 5, },
+				Background = Input {
+					SourceOp = "Blur5",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3606.12, -632.255, }, },
+		},
+		Ellipse4_2 = EllipseMask {
+			Inputs = {
+				SoftEdge = Input { Value = 0.0322581, },
+				MaskWidth = Input { Value = 2048, },
+				MaskHeight = Input { Value = 1556, },
+				PixelAspect = Input { Value = { 1, 1, }, },
+				ClippingMode = Input { Value = FuID { "None", }, },
+				Center = Input { Value = { 0.507236284748516, 0.659372638460372, }, },
+				Width = Input { Value = 0.510296523591743, },
+				Height = Input { Value = 0.0787323669732208, },
+				Angle = Input { Value = 0.516453872308491, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 3716.12, -731.255, }, },
+		},
+		BrightnessContrast18_2 = BrightnessContrast {
+			Inputs = {
+				Alpha = Input { Value = 1, },
+				Gain = Input { Value = 0.4677419, },
+				Input = Input {
+					SourceOp = "ChannelBooleans2_1",
+					Source = "Output",
+				},
+				EffectMask = Input {
+					SourceOp = "Ellipse4_2",
+					Source = "Mask",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3714.36, -632.255, }, },
+		},
+		Ellipse4_1_1 = EllipseMask {
+			CustomData = {
+				Settings = {
+					[1] = {
+						Tools = ordered() {
+							Ellipse4_1_1 = EllipseMask {
+								Inputs = {
+									MaskWidth = Input { Value = 2048, },
+									PixelAspect = Input { Value = { 1, 1, }, },
+									MaskHeight = Input { Value = 1556, },
+									ClippingMode = Input { Value = FuID { "None", }, },
+									Center = Input { Value = { 0.512089457197656, 0.636808466741006, }, },
+									SoftEdge = Input { Value = 0.0322581, },
+									Angle = Input { Value = 1.84646521398054, },
+									Width = Input { Value = 0.291265877567736, },
+									Height = Input { Value = 0.058522713486739, },
+								},
+								CtrlWZoom = false,
+								ViewInfo = OperatorInfo { Pos = { 3824.46, -771.699, }, },
+								CustomData = {
+								},
+							},
+						},
+					},
+				},
+			},
+			Inputs = {
+				SoftEdge = Input { Value = 0.0322581, },
+				MaskWidth = Input { Value = 2048, },
+				MaskHeight = Input { Value = 1556, },
+				PixelAspect = Input { Value = { 1, 1, }, },
+				ClippingMode = Input { Value = FuID { "None", }, },
+				Center = Input { Value = { 0.512089457197656, 0.636808466741006, }, },
+				Width = Input { Value = 0.291265877567736, },
+				Height = Input { Value = 0.058522713486739, },
+				Angle = Input { Value = 1.84646521398054, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 3824.46, -771.699, }, },
+		},
+		BrightnessContrast18_1_1 = BrightnessContrast {
+			Inputs = {
+				Alpha = Input { Value = 1, },
+				Gain = Input { Value = 0.4677419, },
+				Input = Input {
+					SourceOp = "BrightnessContrast18_2",
+					Source = "Output",
+				},
+				EffectMask = Input {
+					SourceOp = "Ellipse4_1_1",
+					Source = "Mask",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3824.36, -609.364, }, },
+		},
+		Merge17 = Merge {
+			Inputs = {
+				Blend = Input { Value = 0.1801075, },
+				Background = Input {
+					SourceOp = "Blur4_1",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "BrightnessContrast18_1_1",
+					Source = "Output",
+				},
+				ApplyMode = Input { Value = FuID { "Screen", }, },
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 4086.29, -318.24, }, },
+		},
+		BrightnessContrast14_1 = BrightnessContrast {
+			CtrlWZoom = false,
+			Inputs = {
+				Gain = Input { Value = 1.8, },
+				Input = Input {
+					SourceOp = "Merge17",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 4038.43, -118.953, }, },
+		},
+		Merge16 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "Merge5",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "BrightnessContrast14_1",
+					Source = "Output",
+				},
+				ApplyMode = Input { Value = FuID { "Screen", }, },
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 4322.27, -113.1, }, },
+		},
+		BrightnessContrast7 = BrightnessContrast {
+			Inputs = {
+				Gain = Input { Value = 1.0380952, },
+				Gamma = Input { Value = 1.5333333, },
+				Input = Input {
+					SourceOp = "Loader2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3792.04, 331.868, }, },
+		},
+		Background1_2_2 = Background {
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 200, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+				TopLeftRed = Input { Value = 0.0448512349099145, },
+				TopLeftGreen = Input { Value = 0.421179514263887, },
+				TopLeftBlue = Input { Value = 0.513333333333333, },
+				Gradient = Input {
+					Value = Gradient {
+						Colors = {
+							[0] = { 0, 0, 0, 1, },
+							[1] = { 1, 1, 1, 1, },
+						},
+					},
+				},
+				EffectMask = Input {
+					SourceOp = "Loader15_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3748.55, 545.955, }, },
+		},
+		SoftGlow1_2_2 = SoftGlow {
+			Inputs = {
+				Threshold = Input { Value = 0.2952381, },
+				Gain = Input { Value = 2.5238095, },
+				XGlowSize = Input { Value = 53.3333333, },
+				Input = Input {
+					SourceOp = "Background1_2_2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3946.21, 490.209, }, },
+		},
+		Merge13 = Merge {
+			Inputs = {
+				Blend = Input { Value = 0.7380952, },
+				Background = Input {
+					SourceOp = "BrightnessContrast7",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "SoftGlow1_2_2",
+					Source = "Output",
+				},
+				ApplyMode = Input { Value = FuID { "Screen", }, },
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 4028.11, 325.516, }, },
+		},
+		ChannelBooleans9 = ChannelBoolean {
+			Inputs = {
+				ToAlpha = Input { Value = 0, },
+				Background = Input {
+					SourceOp = "Loader4",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3773.51, 836.123, }, },
+		},
+		Background1_2_2_2 = Background {
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 200, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+				TopLeftGreen = Input { Value = 0.119745107553885, },
+				TopLeftBlue = Input { Value = 1, },
+				Gradient = Input {
+					Value = Gradient {
+						Colors = {
+							[0] = { 0, 0, 0, 1, },
+							[1] = { 1, 1, 1, 1, },
+						},
+					},
+				},
+				EffectMask = Input {
+					SourceOp = "ChannelBooleans9",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 3945.59, 754.98, }, },
+		},
+		BrightnessContrast15 = BrightnessContrast {
+			Inputs = {
+				Alpha = Input { Value = 1, },
+				Gain = Input { Value = 1.8602151, },
+				Input = Input {
+					SourceOp = "Background1_2_2_2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 4026.78, 634.687, }, },
+		},
+		SoftGlow1_2_2_1_1 = SoftGlow {
+			Inputs = {
+				Threshold = Input { Value = 0.047619, },
+				Gain = Input { Value = 1.3709677, },
+				XGlowSize = Input { Value = 95.4301075, },
+				Input = Input {
+					SourceOp = "BrightnessContrast15",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 4157.57, 480.696, }, },
+		},
+		Merge8 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "Merge13",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "SoftGlow1_2_2_1_1",
+					Source = "Output",
+				},
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 4191.82, 333.143, }, },
+		},
+		Merge2 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "Merge16",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "Merge8",
+					Source = "Output",
+				},
+				ApplyMode = Input { Value = FuID { "Screen", }, },
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 4587.96, -122.071, }, },
+		},
+		Merge10 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "Merge2",
+					Source = "Output",
+				},
+				ApplyMode = Input { Value = FuID { "Screen", }, },
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 4969.57, -407.008, }, },
+		},
+		Background1_2_2_1 = Background {
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 200, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+				TopLeftRed = Input { Value = 0.146623776890859, },
+				TopLeftGreen = Input { Value = 0.468468641760321, },
+				TopLeftBlue = Input { Value = 0.78, },
+				Gradient = Input {
+					Value = Gradient {
+						Colors = {
+							[0] = { 0, 0, 0, 1, },
+							[1] = { 1, 1, 1, 1, },
+						},
+					},
+				},
+				EffectMask = Input {
+					SourceOp = "ChannelBooleans6",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 4433.4, 299.635, }, },
+		},
+		SoftGlow1_2_2_1 = SoftGlow {
+			Inputs = {
+				Threshold = Input { Value = 0.047619, },
+				Gain = Input { Value = 3.1428571, },
+				XGlowSize = Input { Value = 23.3333333, },
+				Input = Input {
+					SourceOp = "Background1_2_2_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 4579.38, 92.9972, }, },
+		},
+		ChannelBooleans6 = ChannelBoolean {
+			Inputs = {
+				ToAlpha = Input { Value = 5, },
+				Background = Input {
+					SourceOp = "Loader19",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 4444.31, 525.093, }, },
+		},
+		Merge15 = Merge {
+			Inputs = {
+				Blend = Input { Value = 0.1761905, },
+				Background = Input {
+					SourceOp = "SoftGlow1_2_2_1",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "ChannelBooleans6",
+					Source = "Output",
+				},
+				ApplyMode = Input { Value = FuID { "Screen", }, },
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 4761.34, 15.9095, }, },
+		},
+		Blur3 = Blur {
+			Inputs = {
+				LockXY = Input { Value = 0, },
+				XBlurSize = Input { Value = 1.4285714, },
+				YBlurSize = Input { Value = 10.952381, },
+				Input = Input {
+					SourceOp = "Merge15",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 4954.42, -31.8371, }, },
+		},
+		SoftGlow3 = SoftGlow {
+			Inputs = {
+				Threshold = Input { Value = 0.0349462, },
+				Gain = Input { Value = 4.0322581, },
+				XGlowSize = Input { Value = 31.9047619, },
+				Input = Input {
+					SourceOp = "Blur3",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 5066.48, -115.035, }, },
+		},
+		BrightnessContrast12 = BrightnessContrast {
+			Inputs = {
+				Gain = Input { Value = 1.647619, },
+				Input = Input {
+					SourceOp = "SoftGlow3",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 5155.08, -104.298, }, },
+		},
+		BrightnessContrast13 = BrightnessContrast {
+			Inputs = {
+				Gain = Input { Value = 1.172043, },
+				Gamma = Input { Value = 0.7903226, },
+				Saturation = Input { Value = 0.6761905, },
+				Input = Input {
+					SourceOp = "BrightnessContrast12",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 5099.35, -267.605, }, },
+		},
+		Merge14 = Merge {
+			Inputs = {
+				Blend = Input { Value = 0.3809524, },
+				Background = Input {
+					SourceOp = "Merge10",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "BrightnessContrast13",
+					Source = "Output",
+				},
+				ApplyMode = Input { Value = FuID { "Screen", }, },
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 5218.86, -504.301, }, },
+		},
+		Background1_1_1_2 = Background {
+			Inputs = {
+				GlobalIn = Input { Value = 1, },
+				GlobalOut = Input { Value = 200, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+				TopLeftRed = Input { Value = 0.12537881911535, },
+				TopLeftGreen = Input { Value = 0.451632960548231, },
+				TopLeftBlue = Input { Value = 0.733333333333333, },
+				Gradient = Input {
+					Value = Gradient {
+						Colors = {
+							[0] = { 0, 0, 0, 1, },
+							[1] = { 1, 1, 1, 1, },
+						},
+					},
+				},
+				EffectMask = Input {
+					SourceOp = "Loader22",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 5356.09, -1091.67, }, },
+		},
+		SoftGlow1_1_2 = SoftGlow {
+			Inputs = {
+				Threshold = Input { Value = 0.052381, },
+				Gain = Input { Value = 3.5952381, },
+				XGlowSize = Input { Value = 27.4193548, },
+				Input = Input {
+					SourceOp = "Background1_1_1_2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 5571.43, -1072.93, }, },
+		},
+		Blur4_2 = Blur {
+			Inputs = {
+				LockXY = Input { Value = 0, },
+				XBlurSize = Input { Value = 0, },
+				YBlurSize = Input { Value = 1.6129032, },
+				Input = Input {
+					SourceOp = "SoftGlow1_1_2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 5731.29, -806.849, }, },
+		},
+		BrightnessContrast14_2 = BrightnessContrast {
+			Inputs = {
+				Gamma = Input { Value = 0.4032258, },
+				Input = Input {
+					SourceOp = "Blur4_2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 5558.57, -718.566, }, },
+		},
+		Merge18 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "Merge14",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "BrightnessContrast14_2",
+					Source = "Output",
+				},
+				ApplyMode = Input { Value = FuID { "Screen", }, },
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 5408.69, -510.654, }, },
+		},
+		BrightnessContrast17 = BrightnessContrast {
+			Inputs = {
+				Gain = Input { Value = 1.3010753, },
+				Gamma = Input { Value = 1.1935484, },
+				Input = Input {
+					SourceOp = "Loader8",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 5310.54, 68.8757, }, },
+		},
+		BrightnessContrast2_1_1 = BrightnessContrast {
+			Inputs = {
+				Input = Input {
+					SourceOp = "Loader7",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 5081.72, 461.693, }, },
+		},
+		ChannelBooleans3_1_1 = ChannelBoolean {
+			Inputs = {
+				ToRed = Input { Value = 5, },
+				ToGreen = Input { Value = 5, },
+				ToBlue = Input { Value = 5, },
+				ToAlpha = Input { Value = 5, },
+				Background = Input {
+					SourceOp = "BrightnessContrast2_1_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 5315.08, 224.772, }, },
+		},
+		BrightnessContrast16 = BrightnessContrast {
+			Inputs = {
+				Gain = Input { Value = 0.5268817, },
+				Gamma = Input { Value = 0.5860215, },
+				Input = Input {
+					SourceOp = "BrightnessContrast17",
+					Source = "Output",
+				},
+				EffectMask = Input {
+					SourceOp = "ChannelBooleans3_1_1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 5520.95, 147.457, }, },
+		},
+		BrightnessContrast16_1 = BrightnessContrast {
+			Inputs = {
+				Gain = Input { Value = 1.5714286, },
+				Gamma = Input { Value = 0.6380952, },
+				Input = Input {
+					SourceOp = "Loader21",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 5494.18, -220.384, }, },
+		},
+		FLDepthOfField1 = ofx.com.frischluft.openFX.DepthOfField {
+			Inputs = {
+				Source = Input {
+					SourceOp = "BrightnessContrast16",
+					Source = "Output",
+				},
+				Depth = Input {
+					SourceOp = "BrightnessContrast16_1",
+					Source = "Output",
+				},
+				show = Input { Value = 0, },
+				radius = Input { Value = 5.1075269, },
+				["focal distance"] = Input { Value = 255.7526882, },
+				["focal point"] = Input { Value = { 0.430296593642385, 0.501168128076701, }, },
+				["highlight intensity"] = Input { Value = 0.4285714, },
+				["gamma correction"] = Input { Value = 1, },
+				["-> Depth Buffer..."] = Input { Value = 0, },
+				["depth invert"] = Input { Value = 0, },
+				["depth curve"] = Input { Value = 1, },
+				["black point"] = Input { Value = 0, },
+				["white point"] = Input { Value = 1, },
+				["auto range"] = Input { Value = 0, },
+				["-> Iris..."] = Input { Value = 0, },
+				["iris rounded"] = Input { Value = 1, },
+				["iris facets"] = Input { Value = 3, },
+				["iris angle"] = Input { Value = 0, },
+				["iris border thickness"] = Input { Value = 0.3, },
+				["iris border brightness"] = Input { Value = 0, },
+				["iris aspect"] = Input { Value = 0, },
+				["-> Highlight Selection..."] = Input { Value = 0, },
+				["lightness start"] = Input { Value = 0.8, },
+				["lightness end"] = Input { Value = 1, },
+				["lightness soften"] = Input { Value = 0, },
+				["-> Outside Image..."] = Input { Value = 0, },
+				["outside horizontal"] = Input { Value = 0, },
+				["outside vertical"] = Input { Value = 0, },
+				["outside colorRed"] = Input {
+					Value = 0,
+					Disabled = true,
+				},
+				["outside colorGreen"] = Input {
+					Value = 0,
+					Disabled = true,
+				},
+				["outside colorBlue"] = Input {
+					Value = 0,
+					Disabled = true,
+				},
+				["outside colorAlpha"] = Input {
+					Value = 0,
+					Disabled = true,
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 5695.19, -40.542, }, },
+		},
+		SoftGlow4 = SoftGlow {
+			Inputs = {
+				Threshold = Input { Value = 0.7580645, },
+				Gain = Input { Value = 0.672043, },
+				LockXY = Input { Value = 0, },
+				XGlowSize = Input { Value = 22.5806452, },
+				YGlowSize = Input { Value = 18.2795699, },
+				Input = Input {
+					SourceOp = "FLDepthOfField1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 5874.67, -316.822, }, },
+		},
+		Merge9 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "Merge18",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "SoftGlow4",
+					Source = "Output",
+				},
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 5680.58, -437.799, }, },
+		},
+		ColorGain2 = ColorGain {
+			Inputs = {
+				MidRedCyan = Input { Value = -0.02, },
+				MidGreenMagenta = Input { Value = 0.04, },
+				MidBlueYellow = Input { Value = -0.05, },
+				DarkRedCyan = Input { Value = -0.53, },
+				DarkGreenMagenta = Input { Value = 0.12, },
+				DarkBlueYellow = Input { Value = 0.29, },
+				ColorRanges = Input {
+					Value = ColorCurves {
+						Curves = {
+							{
+								Points = {
+									{ 0, 1, },
+									{ 0.125, 0.75, },
+									{ 0.375, 0.25, },
+									{ 0.5, 0, },
+								},
+							},
+							{
+								Points = {
+									{ 0.5, 0, },
+									{ 0.625, 0.25, },
+									{ 0.875, 0.75, },
+									{ 1, 1, },
+								},
+							},
+						},
+					},
+				},
+				Input = Input {
+					SourceOp = "Merge9",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 5943.88, -511.264, }, },
+		},
+		Saver1 = Saver {
+			CtrlWZoom = false,
+			Inputs = {
+				ProcessWhenBlendIs00 = Input { Value = 0, },
+				Clip = Input {
+					Value = Clip {
+						Filename = "E:\\Benz NGCC_2020_Project\\comp\\pt11_dz\\pt11n.jpg",
+						FormatID = "JpegFormat",
+						Length = 0,
+						Saving = true,
+						TrimIn = 0,
+						ExtendFirst = 0,
+						ExtendLast = 0,
+						Loop = 1,
+						AspectMode = 0,
+						Depth = 0,
+						TimeCode = 0,
+						GlobalStart = -2000000000,
+						GlobalEnd = 0,
+					},
+				},
+				OutputFormat = Input { Value = FuID { "JpegFormat", }, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2", }, },
+				Input = Input {
+					SourceOp = "ColorGain2",
+					Source = "Output",
+				},
+				["JpegFormat.Quality"] = Input { Value = 97, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 6238.44, -509.931, }, },
+		},
+	},
+	Views = {
+		{
+			FrameTypeID = "ChildFrame",
+			Mode = 3,
+			LayoutPreset = 0,
+			Left = 0,
+			Top = 0,
+			Width = 1591,
+			Height = 719,
+			Views = ordered() {
+				Main = MultiView {
+					Active = "Flow",
+					ViewList = ordered() {
+						Flow = "FlowView",
+						Console = "ConsoleView",
+						Timeline = "TimelineView",
+						Spline = "SplineEditorView",
+						Info = "InfoView",
+						Chat = "ChatView",
+					},
+					Flow = FlowView {
+						Flags = {
+							Navigator = true,
+							AutoHideNavigator = true,
+							ForceAll = true,
+							ForceSource = true,
+							ForceMask = true,
+							ForceActive = true,
+							AutoSnap = true,
+							Thumbnails = false,
+							RemoveRouters = true,
+						},
+						NavigatorSize = { 100, 100, },
+						Direction = "Horizontal",
+						PipeStyle = "Direct",
+						Scale = 0.313167,
+						Offset = { -2646.71, 638.595, },
+					},
+					Timeline = TimelineView {
+						TreeControlState = {
+						},
+						DisplayMode = "All Tools",
+						ShowCurrentTimeTools = false,
+						Filter = "Show All",
+						ShowSelectedTools = false,
+						ShowAnimatedToolsOnly = false,
+						ShowEditBoxes = false,
+						KeyFrameView = {
+							Position = { Left = 130, Bottom = 463, },
+							ScaleX = 0.0932330827067669,
+							OffsetX = -5.31428571428571,
+							OffsetY = 0,
+							AutoScaling = "scroll",
+							AutoSnapTo = "frame",
+							AutoSnapToGuidelines = true,
+							GuidelinesGrabEnabled = true,
+							GuidelinesSnapTo = "none",
+						},
+						Spreadsheet = { LeftPos = 130, Visible = false, },
+					},
+					Spline = SplineEditorView {
+						LeftPos = 225,
+						ScaleX = 0.2,
+						ScaleY = 0.00343642611683849,
+						OffsetX = -4,
+						OffsetY = 0.580756013745705,
+						AutoScaling = "scroll",
+						AutoSnapTo = "frame",
+						AutoSnapToGuidelines = true,
+						GuidelinesSnapTo = "frame",
+						ShowKeyMarkers = false,
+						IndependentHandles = false,
+						ShowNonSplineModifiers = false,
+						GuidelinesGrabEnabled = true,
+						ShowOneToolOnly = false,
+						ShowSelectedTools = false,
+						ShowAllInputs = false,
+						Filter = "Show All",
+					},
+				},
+				Controls = MultiView {
+					Active = "Tools",
+					ViewList = ordered() {
+						Tools = "ControlView",
+						Modifiers = "ModifierView",
+					},
+				},
+				Left = "PreviewContainer",
+				Right = "PreviewContainer",
+				Transport = "TransportView",
+				Time = "TimeView",
+			},
+			Layout = {
+				Columns = 2,
+				RatioX = 1,
+				RatioY = 1,
+				{
+					Rows = 3,
+					RatioX = 0.748825065274151,
+					RatioY = 0.0105162523900574,
+					{
+						Columns = 2,
+						RatioX = 1,
+						RatioY = 0.496153846153846,
+						{ ID = "Left", RatioX = 0.107617051013277, RatioY = 93.1996124031008, Pop = true, },
+						{ ID = "Right", RatioX = 0.892382948986723, Pop = true, },
+						Pop = true,
+					},
+					{ ID = "Main", RatioY = 0.451923076923077, Pop = true, },
+					{ ID = "Time", SnapY = 52, Flat = true, },
+				},
+				{
+					Rows = 2,
+					PixelX = 479,
+					{ ID = "Controls", RatioX = 1, RatioY = 1, },
+					{ ID = "Transport", FixedY = -2, },
+				},
+			},
+		},
+	},
+	Prefs = {
+		Comp = {
+			Views = {
+				Right = {
+					Viewer = {
+						Channel = 4294967295,
+						CheckerUnderlay = false,
+					},
+				},
+				Left = {
+				},
+				View1 = {
+					PickH = 1,
+					FullScreen = false,
+					PickW = 1,
+					AlwaysOnTop = true,
+				},
+			},
+			FrameFormat = {
+				GuideRatio = 1,
+			},
+			LastFile = "E:\\Fighting operation_2018_Project\\comp\\breakdown\\guaishou\\ershu_bq\\ershu_bq..tif",
+			Unsorted = {
+				GlobalStart = 1,
+				GlobalEnd = 200,
+				RenderSettings = {
+					Configs = {
+						Final = {
+							StepRender = false,
+							PriorityClasses = "all",
+							SizeType = 1,
+							MotionBlur = true,
+							CustomAspect = true,
+							CustomHeight = 160,
+							ShowSlaves = false,
+							CustomWidth = 200,
+							StepSize = 5,
+							UpdateMode = "Some",
+							UseNetwork = false,
+							Quality = true,
+						},
+						Preview = {
+							StepRender = false,
+							PriorityClasses = "all",
+							SizeType = 1,
+							MotionBlur = true,
+							CustomAspect = true,
+							CustomHeight = 160,
+							ShowSlaves = false,
+							CustomWidth = 200,
+							StepSize = 5,
+							UpdateMode = "Some",
+							UseNetwork = false,
+							Quality = false,
+						},
+					},
+					PreviewConfig = "Preview",
+					CurrentConfig = "Final",
+				},
+			},
+			Paths = {
+			},
+			FlowView = {
+				ForceActive = true,
+				ForceSource = true,
+				ForceMask = true,
+				ForceAll = true,
+			},
+		},
+	},
+}
+
+ 
