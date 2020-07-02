@@ -4,4 +4,4 @@ import {
 } from './init/init.js'
 
 initThree()
-// initVideo()
+initVideo()
