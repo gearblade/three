@@ -1,7 +1,7 @@
 import {
   initThree,
   initVideo,
-} from './init/init.js'
+} from './init'
 
 initThree()
 initVideo()

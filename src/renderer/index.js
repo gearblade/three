@@ -11,8 +11,7 @@ const renderer = new THREE.WebGLRenderer({
 })
 renderer.setSize(element.clientWidth, element.clientHeight) //设置渲染区域尺寸
 renderer.setPixelRatio(window.devicePixelRatio)
-// renderer.setClearColor(0x393939, 0.5)
-
+renderer.setClearColor('0xffffff', 0)
 export {
   renderer
 }

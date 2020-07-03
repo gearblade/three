@@ -11,7 +11,6 @@ const camera = new THREE.OrthographicCamera(-s * k, s * k, s, -s, 1, 2000)
 camera.position.set(200, 50, 0)
 camera.zoom = 1.8
 camera.updateProjectionMatrix()
-window.camera = camera
 export {
   camera
 }

@@ -10,4 +10,7 @@ module.exports = merge([
   parts.loadCSS(),
   parts.loadImages(),
   parts.loadFonts(),
+  parts.loadSourceMaps({
+    type: "source-map"
+  }),
 ])
