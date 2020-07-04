@@ -8,7 +8,7 @@ import {
   DeviceOrientationControls,
   OrbitControls
 } from '../controls'
-//获取FBXLoader
+
 import {
   FBXLoader,
   GLTFLoader
