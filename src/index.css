@@ -95,4 +95,20 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
+  z-index: 999;
+}
+progress{
+  height: 12px;
+  background-color: #169BD5;
+  border-color: white;
+  border-radius: 6px;
+}
+progress::-webkit-progress-value{
+border-radius: 5px;
+background-color: #169BD5;
+}
+progress::-webkit-progress-bar{
+background-color: #fff;
+border-radius: 6px;
 }

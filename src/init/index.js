@@ -1,8 +1,4 @@
 import * as THREE from 'three'
-
-import {
-  Cache
-} from 'three/src/loaders/Cache'
 //获取控制器
 import {
   DeviceOrientationControls,
@@ -34,10 +30,6 @@ import {
 import {
   isMobile
 } from '../utils'
-import {
-  Mesh,
-  Color
-} from 'three'
 
 //泛光特效
 import {
@@ -182,6 +174,7 @@ export function initThree() {
         return
       }
       progressNode.value = ratio
+      console.log(progressNode)
       console.log((xhr.loaded / xhr.total * 100) + '% loaded')
     },
     // called when loading has errors
@@ -226,16 +219,21 @@ export function initThree() {
 
 //初始化摄像头
 export function initVideo() {
+  //medaDevices接口是新的规范，因此如果存在则优先调用
+  //navigator.getUserMedia方法已被废弃，此处作为向后兼容
+  //如果两种方法都不存在，提示用户升级浏览器版本
   if (navigator.mediaDevices) {
     navigator.mediaDevices.getUserMedia({
         video: {
           width: window.innerWidth,
           height: window.innerHeight,
+          //优先打开后置摄像头
           facingMode: 'environment',
         }
       })
       .then(function (stream) {
         let video = document.querySelector('video')
+        //注意 这里使用srcObject而不是src
         video.srcObject = stream
         video.onloadedmetadata = function (e) {
           video.play()

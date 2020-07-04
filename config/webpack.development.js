@@ -7,7 +7,9 @@ module.exports = merge([
     host: process.env.HOST,
     port: process.env.PORT,
   }),
-  parts.loadCSS(),
+  parts.extractCSS({
+    use: [parts.autoprefix()],
+  }),
   parts.loadImages(),
   parts.loadFonts(),
   parts.loadSourceMaps({

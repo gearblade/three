@@ -7,4 +7,4 @@ import {
 
 
 initThree()
-// initVideo()
+initVideo()
