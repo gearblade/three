@@ -1,5 +1,4 @@
-html,
-body {
+html,body,p {
   padding: 0;
   margin: 0;
   width: 100%;
@@ -46,11 +45,15 @@ canvas {
   flex-direction: column;
   align-items: center;
 }
-
-.QR_wrapper>img {
+.QR_wrapper p{
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+}
+.QR_wrapper img {
   margin-top: 10px;
   width: 100px;
-  height: 100px;
+  min-height: 100px;
 }
 
 .btn_wrapper {
@@ -60,7 +63,19 @@ canvas {
   align-items: center;
   height: 34px;
 }
-
+.forSafari{
+  position: fixed;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  width: 90px;
+  height: 30px;
+  color: white;
+  background-color: #169BD5;
+  z-index: 999;
+  cursor: pointer;
+  display: none;
+}
 button {
   height: 100%;
   outline: none;

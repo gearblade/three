@@ -28,7 +28,8 @@ import {
 } from '../renderer'
 
 import {
-  isMobile
+  isMobile,
+  isSafari,
 } from '../utils'
 
 //泛光特效
@@ -44,8 +45,8 @@ import {
 
 window.camera = camera
 
+const iS = isSafari()
 const params = {
-  exposure: 0,
   bloomStrength: 0.8,
   bloomThreshold: 0,
   bloomRadius: 0,
@@ -60,7 +61,6 @@ bloomPass.radius = params.bloomRadius
 composer = new EffectComposer(renderer)
 composer.addPass(renderScene)
 composer.addPass(bloomPass)
-console.log(composer)
 //生产环境可自定义FBX所在位置
 const FBXpath1 = process.env.NODE_ENV === 'development' ? './src/mod/三维/奔驰ar.gltf' : '奔驰ar.gltf'
 const path2 = process.env.NODE_ENV === 'development' ? './src/mod/贴图/lensflare0.png' : 'lensflare0.png'
@@ -94,13 +94,11 @@ export function initThree() {
             map: new THREE.TextureLoader().load(path2)
           })
           v.material.opacity = 0
-          // v.material.color.setHSL(0.65, 1, 0.5)
           v.material.color.set(0x005AFE)
         }
         if (v.isMesh) {
           if (v.material && v.material.emissive) {
             if (v.name === '圆锥体_3') {
-              console.log(v)
               v.material.emissive.set(0xA3F5FF)
             } else if (v.name.includes('圆锥体')) {
               v.material.emissive.set(0x2D8ADA)
@@ -174,7 +172,6 @@ export function initThree() {
         return
       }
       progressNode.value = ratio
-      console.log(progressNode)
       console.log((xhr.loaded / xhr.total * 100) + '% loaded')
     },
     // called when loading has errors
@@ -188,9 +185,15 @@ export function initThree() {
   document.body.appendChild(renderer.domElement)
   if (isMobile()) {
     //创建陀螺仪控制器
-    controls = new DeviceOrientationControls(camera)
-    if (!window.DeviceOrientationEvent) {
-      alert('当前浏览器暂不支持设备方向感应，请升级浏览器以获得最佳体验')
+    if(isSafari()){
+      const btnNd = document.getElementById('request')
+      btnNd.style.display = 'block'
+      btnNd.onclick = () => {
+        controls = new DeviceOrientationControls(camera)
+        btnNd.style.display = 'none'
+      }
+    }else{
+      controls = new DeviceOrientationControls(camera)
     }
     render(true)
   } else {
@@ -207,9 +210,16 @@ export function initThree() {
     composer.render()
     renderer.clearDepth()
     camera.layers.set(1)
-    renderer.render(scene, camera) //执行渲染操作
-    if (isMobile) {
-      controls.update()
+    renderer.render(scene, camera)
+    if(isMobile){
+      if(controls){
+        controls.update()
+      }
+    }
+    if(isSafari){
+      if(controls){
+        controls.update()
+      }
     }
     if (mixer1 !== null) {
       mixer1.update(clock.getDelta())
