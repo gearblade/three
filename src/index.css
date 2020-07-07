@@ -1,16 +1,18 @@
-html,body,p {
+html,body{
   padding: 0;
   margin: 0;
   width: 100%;
   height: 100%;
+  background-color: black;
 }
-
+p{
+  padding: 0;
+  margin: 0;
+} 
 video {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -19,51 +21,11 @@ video {
 canvas {
   position: fixed;
   top: 0;
-  bottom: 0;
   left: 0;
-  right: 0;
   width: 100%;
   height: 100%;
 }
-
-.QRZone {
-  display: none;
-  position: fixed;
-  z-index: 999;
-  right: 20px;
-  bottom: 20px;
-  width: 160px;
-}
-
-.QR_wrapper {
-  color: white;
-  font-size: 14px;
-  width: 160px;
-  height: 160px;
-  border: 2px solid white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.QR_wrapper p{
-  text-align: center;
-  height: 20px;
-  line-height: 20px;
-}
-.QR_wrapper img {
-  margin-top: 10px;
-  width: 100px;
-  min-height: 100px;
-}
-
-.btn_wrapper {
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 34px;
-}
-.forSafari{
+.btnForSafari{
   position: fixed;
   left: 50%;
   top: 30%;
@@ -83,27 +45,6 @@ button {
   border: none;
 }
 
-a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  border: none;
-  height: 100%;
-  text-decoration: none;
-}
-
-.storage {
-  background-color: #169BD5;
-  color: white;
-  width: 55%;
-}
-
-.replay {
-  background-color: white;
-  width: 40%;
-}
-
 .progress {
   display: block;
   position: fixed;
@@ -120,10 +61,10 @@ progress{
   border-radius: 6px;
 }
 progress::-webkit-progress-value{
-border-radius: 5px;
-background-color: #169BD5;
+  border-radius: 5px;
+  background-color: #169BD5;
 }
 progress::-webkit-progress-bar{
-background-color: #fff;
-border-radius: 6px;
+  background-color: #fff;
+  border-radius: 6px;
 }

@@ -1,4 +1,4 @@
-import * as THREE from 'three'
+import * as THREE from './../../lib/three'
 
 const pointLight = new THREE.PointLight( 0xffffff, 1.5, 2000 )
 pointLight.position.set(0,-82,5)
