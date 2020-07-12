@@ -1,5 +1,4 @@
 import './index.css'
-
 import {
   initThree,
   initVideo,
@@ -11,6 +10,6 @@ import {
  * @param2 startShrinkTime: number  模型缩放的开始时间(单位s)
  * @param3 shrinkSpeed: number  模型缩放的速度
  */
-initThree(2, 5, 0.05)
+initThree(2, 999, 0.05)
 //开启摄像头
-// initVideo()
+initVideo()

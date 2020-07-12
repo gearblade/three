@@ -10,7 +10,7 @@ camera1.position.set(250, 50, 0)
 camera1.zoom = 0.4
 
 const camera2 = new THREE.OrthographicCamera(-s * k, s * k, s, -s, 1, 2000)
-camera2.position.set(200, 50, 0)
+camera2.position.set(200, 0, 0)
 camera2.zoom = 2.1 
 
 camera1.updateProjectionMatrix()

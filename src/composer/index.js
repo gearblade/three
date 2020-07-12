@@ -20,7 +20,7 @@ export function getComposer(scene, camera, renderer){
   //bloomStrength调整亮度
   //bloomThreshold为1时相当于关闭泛光
   const params = {
-    bloomStrength: 1.0,
+    bloomStrength: 1.2,
     bloomThreshold: 0,
     bloomRadius: 0,
   }
